@@ -17,3 +17,4 @@ C:\Users\Alumno\Desktop\Tienda\obj\Debug\net6.0-windows\Tienda.pdb
 C:\Users\Alumno\Desktop\Tienda\obj\Debug\net6.0-windows\Tienda.genruntimeconfig.cache
 C:\Users\Alumno\Desktop\Tienda\obj\Debug\net6.0-windows\ref\Tienda.dll
 C:\Users\Alumno\Desktop\Tienda\obj\Debug\net6.0-windows\Tienda.Form2.resources
+C:\Users\Alumno\Desktop\Tienda\obj\Debug\net6.0-windows\Tienda.Form3.resources

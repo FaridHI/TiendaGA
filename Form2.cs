@@ -19,12 +19,15 @@ namespace Tienda
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Close();
+            login back = new login();
+            back.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            this.Close();
+            login back = new login();
+            back.Show();
         }
     }
 }

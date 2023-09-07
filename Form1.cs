@@ -17,10 +17,15 @@ namespace Tienda
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form2 prueba = new Form2();
+            var prueba = new Form2();
             prueba.Show();
 
             this.Hide();
+        }
+
+        private void login_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

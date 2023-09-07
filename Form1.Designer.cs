@@ -133,6 +133,7 @@
             Name = "login";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Tienda";
+            Load += login_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
