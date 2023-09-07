@@ -1,6 +1,6 @@
 ﻿namespace Tienda
 {
-    partial class Form1
+    partial class login
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,18 +28,123 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(login));
+            pictureBox1 = new PictureBox();
+            label1 = new Label();
+            textBox1 = new TextBox();
+            textBox2 = new TextBox();
+            button1 = new Button();
+            button2 = new Button();
+            button3 = new Button();
+            label2 = new Label();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
-            // Form1
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.f6dbeb17951cb9d12c450eb26e42e484;
+            pictureBox1.Location = new Point(31, 33);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(168, 141);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(218, 33);
+            label1.Name = "label1";
+            label1.Size = new Size(86, 25);
+            label1.TabIndex = 1;
+            label1.Text = "Usuario:";
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(218, 61);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(163, 23);
+            textBox1.TabIndex = 3;
+            // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(218, 133);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(163, 23);
+            textBox2.TabIndex = 4;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(42, 217);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 5;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(171, 217);
+            button2.Name = "button2";
+            button2.Size = new Size(75, 23);
+            button2.TabIndex = 6;
+            button2.Text = "button2";
+            button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            button3.Location = new Point(288, 217);
+            button3.Name = "button3";
+            button3.Size = new Size(75, 23);
+            button3.TabIndex = 7;
+            button3.Text = "button3";
+            button3.UseVisualStyleBackColor = true;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.Location = new Point(218, 105);
+            label2.Name = "label2";
+            label2.Size = new Size(118, 25);
+            label2.TabIndex = 8;
+            label2.Text = "Contraseña:";
+            // 
+            // login
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            BackColor = SystemColors.Window;
             ClientSize = new Size(412, 303);
-            Name = "Form1";
-            Text = "Form1";
+            Controls.Add(label2);
+            Controls.Add(button3);
+            Controls.Add(button2);
+            Controls.Add(button1);
+            Controls.Add(textBox2);
+            Controls.Add(textBox1);
+            Controls.Add(label1);
+            Controls.Add(pictureBox1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            MaximizeBox = false;
+            Name = "login";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Tienda";
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private PictureBox pictureBox1;
+        private Label label1;
+        private TextBox textBox1;
+        private TextBox textBox2;
+        private Button button1;
+        private Button button2;
+        private Button button3;
+        private Label label2;
     }
 }
