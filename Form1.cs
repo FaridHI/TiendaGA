@@ -19,7 +19,8 @@ namespace Tienda
         {
             Form2 prueba = new Form2();
             prueba.Show();
-            
+
+            this.Hide();
         }
     }
 }
