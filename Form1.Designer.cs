@@ -110,6 +110,7 @@
             button3.TabIndex = 10;
             button3.Text = "&Salir";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // login
             // 
