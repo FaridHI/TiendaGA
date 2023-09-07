@@ -34,18 +34,18 @@
             textBox1 = new TextBox();
             textBox2 = new TextBox();
             button1 = new Button();
+            label2 = new Label();
             button2 = new Button();
             button3 = new Button();
-            label2 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.f6dbeb17951cb9d12c450eb26e42e484;
-            pictureBox1.Location = new Point(31, 33);
+            pictureBox1.Location = new Point(-2, 1);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(168, 141);
+            pictureBox1.Size = new Size(223, 187);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -78,28 +78,10 @@
             // 
             button1.Location = new Point(42, 217);
             button1.Name = "button1";
-            button1.Size = new Size(75, 23);
+            button1.Size = new Size(98, 40);
             button1.TabIndex = 5;
-            button1.Text = "button1";
+            button1.Text = "&Crear usuario";
             button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            button2.Location = new Point(171, 217);
-            button2.Name = "button2";
-            button2.Size = new Size(75, 23);
-            button2.TabIndex = 6;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            button3.Location = new Point(288, 217);
-            button3.Name = "button3";
-            button3.Size = new Size(75, 23);
-            button3.TabIndex = 7;
-            button3.Text = "button3";
-            button3.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
@@ -111,6 +93,24 @@
             label2.TabIndex = 8;
             label2.Text = "Contraseña:";
             // 
+            // button2
+            // 
+            button2.Location = new Point(164, 217);
+            button2.Name = "button2";
+            button2.Size = new Size(98, 40);
+            button2.TabIndex = 9;
+            button2.Text = "&Ingresar";
+            button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            button3.Location = new Point(283, 217);
+            button3.Name = "button3";
+            button3.Size = new Size(98, 40);
+            button3.TabIndex = 10;
+            button3.Text = "&Salir";
+            button3.UseVisualStyleBackColor = true;
+            // 
             // login
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -118,9 +118,9 @@
             AutoSizeMode = AutoSizeMode.GrowAndShrink;
             BackColor = SystemColors.Window;
             ClientSize = new Size(412, 303);
-            Controls.Add(label2);
             Controls.Add(button3);
             Controls.Add(button2);
+            Controls.Add(label2);
             Controls.Add(button1);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
@@ -143,8 +143,8 @@
         private TextBox textBox1;
         private TextBox textBox2;
         private Button button1;
+        private Label label2;
         private Button button2;
         private Button button3;
-        private Label label2;
     }
 }
